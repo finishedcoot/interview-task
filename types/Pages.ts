@@ -1,6 +1,8 @@
 import {ErrorPageInterface} from "./Errors";
-import {UsersType} from "./users";
+import {UsersType} from "./User";
+import {ProductsType} from "@/types/Products";
 
-export interface HomePageInterface extends ErrorPageInterface{
+export interface HomePageInterface extends ErrorPageInterface {
     users: UsersType
+    products: ProductsType
 }

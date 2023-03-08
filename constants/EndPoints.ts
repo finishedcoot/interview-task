@@ -1,3 +1,7 @@
+//This line should be in .env
+export const BASE_URL = 'https://fakestoreapi.com'
+
 export enum EndPoints {
-    Users = 'https://fakestoreapi.com/users'
+    Users = '/users',
+    Products = '/products'
 }
